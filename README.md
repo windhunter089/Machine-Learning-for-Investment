@@ -12,13 +12,11 @@ Another part of the project involve indicators evaluation (EMA crossover, Bollin
 - **strategy_evaluation/**: Source code and detailed result on the evaluation process. Experiment 1 is comparison of manual strategy vs machine learning. Experiment 2 is sensitity test.
   - **testproject.py**: combination of all experiments for the trading evaluation. ```python testproject.py ```
 - **indicator_evaluation/**: Source code for evaluation of trading indicators.
-  - **manual_strategy.py**: Implementation of the manual trading strategy.
-  - **strategy_learner.py**: Implementation of the machine learning trading strategy.
-  - **evaluate.py**: Script to compare the performance of both strategies.
-- **assess_learners/**: Source code for evaluation of different machine learning leaners.
-  - **manual_strategy.py**: Implementation of the manual trading strategy.
-  - **strategy_learner.py**: Implementation of the machine learning trading strategy.
-  - **evaluate.py**: Script to compare the performance of both strategies.
+  - **testproject.py**: Evaluation of all indicators.
+  - **indicators.py**: Implementation of trading indicators, need for test project.
+  - **marketsimcode.py**: Market simulation, need for testproject.
+- **assess_learners/**: Source code for evaluation of different machine learning leaners. Each learner is implemented in different .py, they are baglearner, decision tree, insane, linier regression, random tree.
+  - **testlearner.py**: Evaluation of leaners.
 - **data/**: Contains the historical stock price data used for training and testing the models.
 - **grading/**: Grade scope intergration
 
@@ -49,6 +47,18 @@ The strategy learner uses a bagging method with decision trees to predict buy, s
 
 ## Conclusion
 Using technical indicators in a machine learning model like the strategy learner provided outstanding results. However, more testing is needed to consider other factors such as entry price and commission fees.
+
+
+## Instruction
+
+The project is built in Pycharm with specific environment required.
+- First, PYTHONPATH need to be set up so it picked up util.py and grading correctly. One way in Pycharm is right click on the original folder and marked directory as source root.
+- Install miniconda or anaconda to set up environment based on environment.yml file.
+```
+conda env create --file environment.yml
+conda activate ml4t
+```
+
 
 
 
