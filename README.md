@@ -1,4 +1,4 @@
-# Trading Strategy Evaluation Using Bagging Learners with Technical Analysis Indicators
+# Trading Strategy Evaluation Using Machine Learning with Technical Analysis Indicators as features
 
 ## Overview
 This project evaluates the effectiveness of a manual trading strategy versus a machine learning-based trading strategy. Both strategies use three technical indicators: EMA9 crossover EMA21, MACD, and Bollinger Bands. The machine learning strategy employs a bagging learner with decision trees.
