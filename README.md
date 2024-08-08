@@ -41,9 +41,12 @@ The strategy learner uses a bagging method with decision trees to predict buy, s
 - **Manual Strategy**: Outperformed the benchmark with significant gains.
 - **Strategy Learner**: Outperformed both the manual strategy and the benchmark, indicating the effectiveness of machine learning in trading.
 
+![in-sample result](/strategy_evaluation/exp1_in_sample.png)
+
 ### Out-of-Sample Performance
 - **Manual Strategy**: Performance dropped but still outperformed the benchmark.
 - **Strategy Learner**: Performance remained strong, significantly outperforming both the manual strategy and the benchmark.
+![out-sample result](/strategy_evaluation/exp1_out_sample.png)
 
 ## Conclusion
 Using technical indicators in a machine learning model like the strategy learner provided outstanding results. However, more testing is needed to consider other factors such as entry price and commission fees.
