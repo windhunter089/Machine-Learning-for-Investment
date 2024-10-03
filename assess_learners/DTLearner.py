@@ -1,9 +1,7 @@
 """"""
 """  		  	   		  		 			  		 			     			  	 
 A simple wrapper for Decision Tree Learner	  
-Student Name: Trung Pham (replace with your name)  		  	   		  		 			  		 			     			  	 
-GT User ID: tpham328 (replace with your User ID)  		  	   		  		 			  		 			     			  	 
-GT ID: 903748900 (replace with your GT ID)  	   		  		 			  		 			     			  	 
+   		  		 			  		 			     			  	 
 """  		  	   		  		 			  		 			     			  	 
   		  	   		  		 			  		 			     			  	 
 import numpy as np  		  	   		  		 			  		 			     			  	 
@@ -30,7 +28,7 @@ class DTLearner(object):
         :return: The GT username of the student  		  	   		  		 			  		 			     			  	 
         :rtype: str  		  	   		  		 			  		 			     			  	 
         """  		  	   		  		 			  		 			     			  	 
-        return "tpham328"  # replace tb34 with your Georgia Tech username
+        return ""  # replace tb34 with yourusername
   		  	   		  		 			  		 			     			  	 
     def add_evidence(self, Xtrain, Ytrain):
         """  		  	   		  		 			  		 			     			  	 

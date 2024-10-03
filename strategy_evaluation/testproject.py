@@ -2,9 +2,6 @@
 Test Project
 RUN EVERYTHING FOR THE REPORT
 
-Student Name: Trung Pham (replace with your name)
-GT User ID: tpham328 (replace with your User ID)
-GT ID: 903748900 (replace with your GT ID)
 """
 
 import datetime as dt
@@ -136,7 +133,7 @@ def testcode():
     exp2.testcode()
 
 def author():
-    return 'tpham328'
+    return ''
 
 if __name__ == "__main__":
     print("EVERYTHING IN ONE")

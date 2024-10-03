@@ -16,9 +16,7 @@ For short, vice versa
 
 ema9x21, macd_hist, bbp
 ---------------------------------------
-Student Name: Trung Pham (replace with your name)
-GT User ID: tpham328 (replace with your User ID)
-GT ID: 903748900 (replace with your GT ID)
+
 """
 
 import datetime as dt
@@ -224,7 +222,7 @@ def test_code():
 
 
 def author():
-    return 'tpham328'
+    return ''
 
 if __name__ == "__main__":
     test_code()

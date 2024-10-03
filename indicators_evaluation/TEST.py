@@ -1,7 +1,5 @@
 """
-Student Name: Trung Pham (replace with your name)
-GT User ID: tpham328 (replace with your User ID)
-GT ID: 903748900 (replace with your GT ID)
+
 """
 
 """
@@ -26,7 +24,7 @@ from marketsimcode import compute_portvals, port_stats
 import matplotlib.pyplot as plt
 
 def author():
-    return 'tpham328'
+    return ''
 
 
 def testPolicy(symbol ="JPM",

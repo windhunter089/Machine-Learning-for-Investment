@@ -1,7 +1,5 @@
 """
-Student Name: Trung Pham (replace with your name)
-GT User ID: tpham328 (replace with your User ID)
-GT ID: 903748900 (replace with your GT ID)
+
 """
 
 """
@@ -20,7 +18,7 @@ from util import get_data, plot_data
 import matplotlib.pyplot as plt
 
 def author():
-    return 'tpham328'
+    return ''
 
 def ema9xema21(symbol,sd,ed):
     ema9 = ema(symbol,sd,ed, lookback=9)
